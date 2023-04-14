@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import slider from './slider'
+
+export const schemaTypes = [slider]
