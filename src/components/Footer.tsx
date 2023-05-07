@@ -2,33 +2,39 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='flex flex-wrap p-5 text-white bg-black justify-evenly'>
+    <footer className='flex flex-wrap pb-10 text-white bg-black mb justify-evenly'>
       <ul>
-        <h2 className='font-bold'>Information</h2>
-        <li>Information for Sellers</li>
-        <li>Information for Buyers</li>
-        <li>Information for Landlords</li>
-        <li>Information for Tenants</li>
-        <li>Information for Developers</li>
+        <h2 className='mt-8 mb-4 text-2xl font-bold text-teal-500 '>
+          Information
+        </h2>
+        <li className='mb-2 hover:text-gray-500'>Information for Sellers</li>
+        <li className='mb-2 hover:text-gray-500'>Information for Buyers</li>
+        <li className='mb-2 hover:text-gray-500'>Information for Landlords</li>
+        <li className='mb-2 hover:text-gray-500'>Information for Tenants</li>
+        <li className='mb-2 hover:text-gray-500'>Information for Developers</li>
       </ul>
       <ul>
-        <h2 className='font-bold'>Our Services</h2>
-        <li>Residential Sales</li>
-        <li>Residential lettings</li>
-        <li>New Land</li>
-        <li>Asset Management</li>
+        <h2 className='mt-8 mb-4 text-2xl font-bold text-teal-500 '>
+          Our Services
+        </h2>
+        <li className='mb-2 hover:text-gray-500'>Residential Sales</li>
+        <li className='mb-2 hover:text-gray-500'>Residential lettings</li>
+        <li className='mb-2 hover:text-gray-500'>New Land</li>
+        <li className='mb-2 hover:text-gray-500'>Asset Management</li>
       </ul>
       <ul>
-        <h2 className='font-bold'>Help & Contact</h2>
-        <li>Contact Us</li>
-        <li>FAQ</li>
-        <li>Support</li>
+        <h2 className='mt-8 mb-4 text-2xl font-bold text-teal-500 '>
+          Help & Contact
+        </h2>
+        <li className='mb-2 hover:text-gray-500'>Contact Us</li>
+        <li className='mb-2 hover:text-gray-500'>FAQ</li>
+        <li className='mb-2 hover:text-gray-500'>Support</li>
       </ul>
       <ul>
-        <h2 className='font-bold'>Connect</h2>
-        <li>Facebook</li>
-        <li>Twitter</li>
-        <li>Instagram</li>
+        <h2 className='mt-8 mb-4 text-2xl font-bold text-teal-500 '>Connect</h2>
+        <li className='mb-2 hover:text-gray-500'>Facebook</li>
+        <li className='mb-2 hover:text-gray-500'>Twitter</li>
+        <li className='mb-2 hover:text-gray-500'>Instagram</li>
       </ul>
 
       <h2></h2>
