@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const Header = () => {
+export const Menu = () => {
   return <div>Header</div>;
 };
