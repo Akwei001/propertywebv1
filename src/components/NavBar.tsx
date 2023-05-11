@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
   return (
     <>
-      <div className='flex flex-col flex-wrap p-5 mx-auto '>
+      <div className='flex flex-col flex-wrap  mx-auto '>
         <a className='flex items-center font-medium text-white bg-black title-font'>
           PropertyWeb
         </a>
