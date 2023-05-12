@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
   return (
     <>
-      <div className='flex flex-col flex-wrap  mx-auto '>
+      <nav className='flex flex-col flex-wrap  mx-auto '>
         <a className='flex items-center font-medium text-white bg-black title-font'>
           PropertyWeb
         </a>
@@ -13,7 +13,7 @@ const NavBar = () => {
           <a className='mr-5'>News</a>
           <a className='mr-5'>Contact Us</a>
         </div>
-      </div>
+      </nav>
     </>
   );
 };
