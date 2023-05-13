@@ -10,31 +10,31 @@ export const Menu = () => {
   return (
     <>
       <nav className='bg-gray-800'>
-        <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-          <div className='flex items-center justify-between h-16'>
+        <div className='px-4 mx-auto max-w-7xl sm:px-6 lg:px-8'>
+          <div className='flex items-center justify-end h-16'>
             <div className='flex items-center'>
               <div className='flex-shrink-0'>
                 <Link href='/'>
-                  <span className='text-white font-bold text-xl'>My Site</span>
+                  <span className='text-xl font-bold text-white'>My Site</span>
                 </Link>
               </div>
               <div className='hidden md:block'>
-                <div className='ml-10 flex items-baseline space-x-4'>
+                <div className='flex items-baseline ml-10 space-x-4'>
                   <Link href='/'>
-                    <span className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                    <span className='px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white'>
                       Home
                     </span>
                   </Link>
                   <div className='relative'>
                     <button
-                      className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white'
+                      className='px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white'
                       onClick={toggleDropdown}
                     >
                       Products
                     </button>
                     {showDropdown && (
                       <div
-                        className='origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10'
+                        className='absolute right-0 z-10 w-56 mt-2 origin-top-right bg-white rounded-md shadow-lg ring-1 ring-black ring-opacity-5'
                         role='menu'
                         aria-orientation='vertical'
                         aria-labelledby='options-menu'
@@ -67,7 +67,7 @@ export const Menu = () => {
                     )}
                   </div>
                   <Link href='/about'>
-                    <span className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
+                    <span className='px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white'>
                       About
                     </span>
                   </Link>
