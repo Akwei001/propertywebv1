@@ -3,8 +3,8 @@ import React from 'react';
 const NavBar = () => {
   return (
     <>
-      <nav className='flex flex-col flex-wrap mx-auto '>
-        <a className='flex items-center font-medium text-white bg-black title-font'>
+      <nav className='flex items-center bg-black'>
+        <a className='flex text-lg font-medium text-teal-500 bg-black title-font'>
           PropertyWeb
         </a>
         <div className='flex flex-wrap justify-end w-full p-2 text-base text-white bg-black md:ml-auto md:mr-auto'>
