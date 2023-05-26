@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import { Menu } from '@/components/Menu';
 import FeatureSection from '@/components/FeatureSection';
 import Slider from '@/components/Slider';
+import MenuGrid from '@/components/MenuGrid';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <NavBar />
       <Menu />
       <Slider />
+      <MenuGrid />
       <FeatureSection />
       <CTA />
       <Footer />
