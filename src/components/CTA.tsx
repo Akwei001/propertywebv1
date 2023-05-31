@@ -2,9 +2,9 @@ import React from 'react';
 
 const CTA = () => {
   return (
-    <div className='flex flex-wrap mx-auto mb-2'>
-      <div className='flex flex-col flex-wrap mx-auto mb-2'>
-        <div className='flex flex-wrap px-4 py-8 m-auto bg-black rounded-lg shadow-lg justify-startmax-w-2xl md:py-16'>
+    <div className=''>
+      <div className='grid max-w-full grid-cols-2 mb-2'>
+        <div className='bg-black shadow-lg md:py-16'>
           <div className='max-w-2xl m-auto text-center'>
             <h2 className='mt-4 text-3xl font-bold text-center text-teal-500 md:text-4xl'>
               Get in touch
@@ -21,9 +21,7 @@ const CTA = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className='flex flex-col h-[350px] w-[700px]  flex-wrap mx-auto mb-2'>
-        <div className='flex flex-wrap w-full h-full px-4 py-8 m-auto bg-black rounded-lg shadow-lg md:py-16'></div>
+        <div className='bg-green-500 shadow-lg md:py-16'>Photo</div>
       </div>
     </div>
   );
