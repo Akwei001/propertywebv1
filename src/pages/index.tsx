@@ -7,6 +7,7 @@ import { Menu } from '@/components/Menu';
 import FeatureSection from '@/components/FeatureSection';
 import Slider from '@/components/Slider';
 import MenuGrid from '@/components/MenuGrid';
+import News from '@/components/News';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Slider />
       <MenuGrid />
       <FeatureSection />
+      <News />
       <CTA />
       <Footer />
     </>
